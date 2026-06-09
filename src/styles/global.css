@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: "Rubik", sans-serif;
+}
+
+.mobile-container {
+  width: 375px;
+  min-height: 100vh;
+  background: #fff;
+  margin: auto;
+  padding: 24px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1D2226;
+  margin-bottom: 24px;
+}
+
+p {
+  color: #777;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group input {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.primary-btn {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  background: #6c25ff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  background: #cebafb;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-btn {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  background: #ccc;
+  color: white;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.floating-input {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.floating-input input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  padding: 16px 12px 8px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+}
+
+.floating-label {
+  position: absolute;
+  top: -9px;
+  left: 12px;
+  background: #f7f8f9;
+  padding: 0 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #6c25ff;
+}
+
+.required {
+  color: #DD4A3D;
+}
+
+.floating-input input {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  padding: 14px 14px;
+  font-size: 15px;
+  color: #1D2226;
+  background: transparent;
+}
+
+.radio-options {
+  display: flex;
+  gap: 28px;
+  margin-top: 8px;
+}
+
+.radio-options label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #1D2226;
+}
+.mobile-container {
+  width: 375px;
+  min-height: 812px;
+  background: #f7f8f9;
+  padding: 40px 20px;
+}
+.primary-btn {
+  background: #6C25FF;
+  height: 46px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.login-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1D2226;
+  margin: 0 0 6px 0;
+}
+
+.login-header p {
+  margin: 0;
+  color: #777;
+  line-height: 1.4;
+}
