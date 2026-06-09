@@ -48,7 +48,7 @@ src/
 
 Clone the repository:
 
-git clone <repository-url>
+git clone (https://github.com/nanisam07/Educase.git)
 
 Navigate to the project:
 
@@ -68,12 +68,12 @@ npm run build
 
 ## Live Demo
 
-Hosted Link:
+Hosted Link: https://educase-five-woad.vercel.app/
 
 
 ## GitHub Repository
 
-Repository Link:
+Repository Link: https://github.com/nanisam07/Educase.git
 
 
 ## Author
